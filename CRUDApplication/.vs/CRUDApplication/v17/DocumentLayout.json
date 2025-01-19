@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\CRUDApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{072DEC18-EA31-4D17-B407-F8C52789A8DA}|CRUDApplication.csproj|c:\\users\\admin\\source\\repos\\crudapplication\\components\\pages\\productpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{072DEC18-EA31-4D17-B407-F8C52789A8DA}|CRUDApplication.csproj|solutionrelative:components\\pages\\productpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072DEC18-EA31-4D17-B407-F8C52789A8DA}|CRUDApplication.csproj|c:\\users\\admin\\source\\repos\\crudapplication\\components\\pages\\productpages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{072DEC18-EA31-4D17-B407-F8C52789A8DA}|CRUDApplication.csproj|solutionrelative:components\\pages\\productpages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{072DEC18-EA31-4D17-B407-F8C52789A8DA}|CRUDApplication.csproj|c:\\users\\admin\\source\\repos\\crudapplication\\components\\pages\\productpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{072DEC18-EA31-4D17-B407-F8C52789A8DA}|CRUDApplication.csproj|solutionrelative:components\\pages\\productpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,20 +19,12 @@
       "RelativeMoniker": "D:0:0:{072DEC18-EA31-4D17-B407-F8C52789A8DA}|CRUDApplication.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{072DEC18-EA31-4D17-B407-F8C52789A8DA}|CRUDApplication.csproj|c:\\users\\admin\\source\\repos\\crudapplication\\components\\pages\\productpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{072DEC18-EA31-4D17-B407-F8C52789A8DA}|CRUDApplication.csproj|solutionrelative:components\\pages\\productpages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{072DEC18-EA31-4D17-B407-F8C52789A8DA}|CRUDApplication.csproj|c:\\users\\admin\\source\\repos\\crudapplication\\components\\pages\\productpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{072DEC18-EA31-4D17-B407-F8C52789A8DA}|CRUDApplication.csproj|solutionrelative:components\\pages\\productpages\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{072DEC18-EA31-4D17-B407-F8C52789A8DA}|CRUDApplication.csproj|c:\\users\\admin\\source\\repos\\crudapplication\\components\\pages\\productpages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{072DEC18-EA31-4D17-B407-F8C52789A8DA}|CRUDApplication.csproj|solutionrelative:components\\pages\\productpages\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{072DEC18-EA31-4D17-B407-F8C52789A8DA}|CRUDApplication.csproj|c:\\users\\admin\\source\\repos\\crudapplication\\components\\pages\\productpages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{072DEC18-EA31-4D17-B407-F8C52789A8DA}|CRUDApplication.csproj|solutionrelative:components\\pages\\productpages\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{072DEC18-EA31-4D17-B407-F8C52789A8DA}|CRUDApplication.csproj|c:\\users\\admin\\source\\repos\\crudapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -50,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CRUDApplication\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "Components\\_Imports.razor",
@@ -62,12 +62,11 @@
               "RelativeToolTip": "Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-18T10:17:17.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T10:17:17.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Edit.razor",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CRUDApplication\\Components\\Pages\\ProductPages\\Edit.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\ProductPages\\Edit.razor",
@@ -75,12 +74,11 @@
               "RelativeToolTip": "Components\\Pages\\ProductPages\\Edit.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-18T10:15:11.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T10:15:11.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Details.razor",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CRUDApplication\\Components\\Pages\\ProductPages\\Details.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\ProductPages\\Details.razor",
@@ -88,25 +86,24 @@
               "RelativeToolTip": "Components\\Pages\\ProductPages\\Details.razor",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-18T10:14:51.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T10:14:51.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Delete.razor",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CRUDApplication\\Components\\Pages\\ProductPages\\Delete.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\ProductPages\\Delete.razor",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\CRUDApplication\\Components\\Pages\\ProductPages\\Delete.razor",
               "RelativeToolTip": "Components\\Pages\\ProductPages\\Delete.razor",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACEAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswDMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-18T10:14:38.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CRUDApplication\\Components\\Pages\\ProductPages\\Index.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\ProductPages\\Index.razor",
@@ -127,12 +124,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-18T09:43:01.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T09:43:01.244Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Create.razor",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CRUDApplication\\Components\\Pages\\ProductPages\\Create.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\ProductPages\\Create.razor",
@@ -153,8 +149,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T10:00:23.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T10:00:23.377Z"
             },
             {
               "$type": "Document",
@@ -166,8 +161,7 @@
               "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-18T09:37:47.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T09:37:47.145Z"
             },
             {
               "$type": "Document",
@@ -179,8 +173,7 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T09:34:47.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T09:34:47.803Z"
             }
           ]
         }
