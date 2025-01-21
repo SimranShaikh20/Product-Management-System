@@ -30,7 +30,7 @@
             <dd class="col-sm-10">@product.Qty</dd>
         </dl>
         <EditForm method="post" Model="product" OnValidSubmit="DeleteProduct" FormName="delete" Enhance>
-            <button type="submit" class="btn btn-danger" disabled="@(product is null)">Delete</button> |
+            <button type="submit" class="btn btn-danger" disabled="@(product is null)">Delete</button> |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="/products" class="btn btn-outline-secondary">Back to List</a>
         </EditForm>
     }

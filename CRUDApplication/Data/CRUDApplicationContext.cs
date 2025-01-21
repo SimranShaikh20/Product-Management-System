@@ -15,5 +15,6 @@ namespace CRUDApplication.Data
         }
 
         public DbSet<CRUDApplication.Models.Product> Product { get; set; } = default!;
+
     }
 }

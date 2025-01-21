@@ -19,9 +19,10 @@
     <PropertyColumn Property="product => product.Price" />
     <PropertyColumn Property="product => product.Qty" />
 
+
     <TemplateColumn Context="product">
         <a href="@($"products/edit?id={product.id}")"class="btn btn-info">Edit</a> |
-        <a href="@($"products/details?id={product.id}")" class="btn btn-success">Details</a> |
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="@($"products/delete?id={product.id}")" class="btn btn-danger">Delete</a>
     </TemplateColumn>
 </QuickGrid>
