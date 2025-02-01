@@ -1,0 +1,45 @@
+﻿@page "/"
+@using Microsoft.EntityFrameworkCore
+@using ProductManagmentSystem.Models
+@inject IDbContextFactory<ProductManagmentSystem.Data.ProductManagmentSystemContext> DbFactory
+
+<PageTitle>Home</PageTitle>
+
+
+<h2>Products</h2>
+
+@if (products is null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="row">
+        @foreach (var product in products)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text">
+                            <strong>Price:</strong> @product.Price.ToString("C") <br />
+                            <strong>Quantity:</strong> @product.Qty
+                        </p>
+                        <a href="@($"/products/details?id={product.id}")" class="btn btn-primary">Details</a>
+                        
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    private List<Product>? products;
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        products = await context.Product.ToListAsync();
+    }
+}
