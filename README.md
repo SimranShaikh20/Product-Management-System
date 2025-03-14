@@ -32,5 +32,5 @@ Before running the project, ensure you have the following installed:
 Clone the project repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/product-management-app.git
+git clone https://github.com/SimranShaikh20/product-management-app.git
 cd product-management-app
